@@ -1,32 +1,29 @@
 {
   "auth": {
-    "girl147726b5": {
+    "GIRL": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
-        "loginMechanisms": [
-          "EMAIL"
-        ],
+        "loginMechanisms": [],
         "signupAttributes": [
           "EMAIL"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyMinLength": 8,
-          "passwordPolicyCharacters": []
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
         },
         "mfaConfiguration": "OFF",
         "mfaTypes": [
           "SMS"
         ]
       }
-    }
-  },
-  "storage": {
-    "s3a8e1aeed": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation"
     }
   }
 }
