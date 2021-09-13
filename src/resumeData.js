@@ -1,5 +1,5 @@
 let resumeData = {
-  "imagebaseurl": "https://ramblekb.github.io/KipSmithPortfolio/",
+  "imagebaseurl": "https://photos.app.goo.gl/upMWdm6QbBwuodeV9",
   "name": "Kip Smith",
   "role": "Web Development",
   "linkedinId": " linkedin.com/in/kipbradleysmith",
@@ -89,7 +89,7 @@ let resumeData = {
       "name": "Google Books Reading List",
       "description": "Google Books API Search",
       // "imgurl": "images/portfolio/reading-list.png"
-      "imgurl": "https://readingapi.herokuapp.com/"
+      "imgurl": "https://photos.app.goo.gl/HnTv6At1kBnQjAfCA"
 
     },
     {

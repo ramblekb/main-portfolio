@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-girl-staging-202126-authRole",
+      "UnauthRoleArn": "arn:aws:iam::166850807279:role/amplify-girl-staging-202126-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::166850807279:role/amplify-girl-staging-202126-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-girl-staging-202126-deployment",
+      "UnauthRoleName": "amplify-girl-staging-202126-unauthRole",
+      "StackName": "amplify-girl-staging-202126",
+      "StackId": "arn:aws:cloudformation:us-east-1:166850807279:stack/amplify-girl-staging-202126/2c4c8c50-14d0-11ec-8c14-0aeaaa124225",
+      "AmplifyAppId": "dy39dp34p5v0y"
+    },
+    "categories": {
+      "auth": {
+        "girl147726b5": {}
+      }
+    }
+  }
+}
